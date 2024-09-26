@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webinars</title>
+  </head>
+  <body>
+    <nav>
+      <a href="link1.html" class="logo">
+        <img src="icon1.png" alt="logo" class="logo" />
+      </a>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/all-webinars.html">Webinars</a></li>
+        <li><a href="#contouring">Contouring</a></li>
+        <li><a href="#profile">Profile</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Webinars</h1>
+      <label action="#" method="GET">
+        <input type="text" id="search" placeholder="Search" tabindex="0" />
+        <button type="submit">
+          <svg width="20" height="20" fill="currentColor">
+            <!-- logo  -->
+          </svg>
+        </button>
+      </label>
+    </header>
+    <main>
+      <!-- Webinar Subjects -->
+      <section class="sort">
+        <h2>Newest</h2>
+        <label for="sort">Sort by:</label>
+        <select id="sort" tabindex="0">
+          <option value="newest" tabindex="0">Newest</option>
+          <option value="popular" tabindex="0">Most Popular</option>
+          <option value="oldest" tabindex="0">Oldest</option>
+        </select>
+      </section>
+
+      <!-- Featured Webinar -->
+      <section class="featured-webinar">
+        <img
+          src="https://placehold.co/164x93"
+          alt="Webinar image"
+          class="webinar-media"
+        />
+        <p id="webinar-description">26th Faro webinar : 5</p>
+        <p class="speaker-name">John Doe, DM</p>
+      </section>
+      <section class="subject-boxes">
+        <article>
+          <a tabindex="0">All</a>
+          <a tabindex="0">Breast</a>
+          <a tabindex="0">Gastrointestinal</a>
+          <a tabindex="0">Gynaecology</a>
+        </article>
+      </section>
+
+      <!-- All Webinars -->
+      <section class="all-webinars">
+        <h2>All</h2>
+        <article class="webinar-item" tabindex="0">
+          <img
+            src="https://placehold.co/164x93"
+            alt="Webinar image"
+            class="webinar-media"
+          />
+          <p id="webinar-description">22th Faro webinar : 1</p>
+          <p class="speaker-name">John Doe, DM</p>
+        </article>
+        <article class="webinar-item" tabindex="0">
+          <img
+            src="https://placehold.co/164x93"
+            alt="Webinar image"
+            class="webinar-media"
+          />
+          <p id="webinar-description">23th Faro webinar : 2</p>
+          <p class="speaker-name">John Doe, DM</p>
+        </article>
+        <article class="webinar-item" tabindex="0">
+          <img
+            src="https://placehold.co/164x93"
+            alt="Webinar image"
+            class="webinar-media"
+          />
+          <p id="webinar-description">24th Faro webinar : 3</p>
+          <p class="speaker-name">John Doe, DM</p>
+        </article>
+        <article class="webinar-item" tabindex="0">
+          <img
+            src="https://placehold.co/164x93"
+            alt="Webinar image"
+            class="webinar-media"
+          />
+          <p id="webinar-description">25th Faro webinar : 4</p>
+          <p class="speaker-name">John Doe, DM</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
