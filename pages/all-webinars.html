@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webinars</title>
   </head>
   <body>
-    <nav>
-      <a href="link1.html" class="logo">
-        <img src="icon1.png" alt="logo" class="logo"/>
-      </a>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/pages/all-webinars.html">Webinars</a></li>
-        <li><a href="#contouring">Contouring</a></li>
-        <li><a href="#profile">Profile</a></li>
-      </ul>
-    </nav>
     <header>
-      <h1>Webinars</h1>
-      <form action="#" method="GET">
-        <input type="text" id="search" placeholder="Search" tabindex="0"/>
-        <button type="submit">
-          <svg width="20" height="20" fill="currentColor">
-            <!-- logo  -->
-          </svg>
-        </button>
-      </form>
+      <nav>
+        <a href="#" class="logo">
+          <img src="icon1.png" alt="logo" class="logo" />
+        </a>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/all-webinars.html">Webinars</a></li>
+          <li><a href="#contouring">Contouring</a></li>
+          <li><a href="#profile">Profile</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
+      <!-- Seacrh Functon -->
+      <section class="search-function">
+        <h1>Webinars</h1>
+        <form action="#" method="GET">
+          <input type="text" id="search" placeholder="Search" tabindex="0" />
+          <button type="submit">
+            <svg width="20" height="20" fill="currentColor">
+              <!-- logo  -->
+            </svg>
+          </button>
+        </form>
+      </section>
+
       <!-- Webinar Subjects -->
       <section class="webinar-overview">
         <h2>Newest</h2>
@@ -40,15 +45,15 @@
         </select>
 
         <!-- Featured Webinar -->
-        <div>
+        <article class="featured-webinar" tabindex="0">
           <img
             src="https://placehold.co/164x93"
             alt="Webinar image"
             class="webinar-media"
           />
-          <p id="webinar-description">26th Faro Webinar: 5</p>
+          <h3 id="webinar-description">26th Faro Webinar: 5</h3>
           <p class="speaker-name">John Doe, DM</p>
-        </div>
+        </article>
       </section>
 
       <!-- Webinar Subjects -->
@@ -64,42 +69,42 @@
       <!-- All Webinars -->
       <section class="all-webinars">
         <h2>All</h2>
-        <div class="webinar-item" tabindex="0">
+        <article class="webinar-item" tabindex="0">
           <img
             src="https://placehold.co/164x93"
             alt="Webinar image"
             class="webinar-media"
           />
-          <p id="webinar-description-1">22th Faro webinar : 1</p>
+          <h3 id="webinar-description-1">22th Faro webinar : 1</h3>
           <p class="speaker-name">John Doe, DM</p>
-        </div>
-        <div class="webinar-item" tabindex="0">
+        </article>
+        <article class="webinar-item" tabindex="0">
           <img
             src="https://placehold.co/164x93"
             alt="Webinar image"
             class="webinar-media"
           />
-          <p id="webinar-description-2">23th Faro webinar : 2</p>
+          <h3 id="webinar-description-2">23th Faro webinar : 2</h3>
           <p class="speaker-name">John Doe, DM</p>
-        </div>
-        <div class="webinar-item" tabindex="0">
+        </article>
+        <article class="webinar-item" tabindex="0">
           <img
             src="https://placehold.co/164x93"
             alt="Webinar image"
             class="webinar-media"
           />
-          <p id="webinar-description-3">24th Faro webinar : 3</p>
+          <h3 id="webinar-description-3">24th Faro webinar : 3</h3>
           <p class="speaker-name">John Doe, DM</p>
-        </div>
-        <div class="webinar-item" tabindex="0">
+        </article>
+        <article class="webinar-item" tabindex="0">
           <img
             src="https://placehold.co/164x93"
             alt="Webinar image"
             class="webinar-media"
           />
-          <p id="webinar-description-4">25th Faro webinar : 4</p>
+          <h3 id="webinar-description-4">25th Faro webinar : 4</h3>
           <p class="speaker-name">John Doe, DM</p>
-        </div>
+        </article>
       </section>
     </main>
   </body>
