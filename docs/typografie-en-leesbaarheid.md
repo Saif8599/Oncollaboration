@@ -11,15 +11,15 @@ Voor goed leesbare teksten gelden een aantal basis regels die je kan toepassen o
 
 ### Font styling
 
-Het is gebruikelijk om aan de `<html>` of de `<body>` de basis font styling te definieren, zoals:  
+Het is gebruikelijk om aan de `<html>` de basis font styling te definieren, zoals:  
 - font-family
 - font-size
 - color
 
-De `font-family` die je in de `body` of `html` zet, zal ook gelden voor de elementen die daarbinnen vallen (genest zijn), dat heet *inheritance*. Je hoeft daarom maar op 1 plek de `font-family` te zetten. De `font-size` wordt niet doorgegeven aan de elementen die genest zijn. Als je een andere font size nodig hebt voor een heading of paragraaf moet je per element de font size bepalen. 
+De `font-family` die je in de `html` zet, zal ook gelden voor de elementen die daarbinnen vallen (genest zijn), dat heet *inheritance*. Je hoeft daarom maar op 1 plek de `font-family` te zetten. De `font-size` wordt niet doorgegeven aan de elementen die genest zijn. Als je een andere font size nodig hebt voor een heading of paragraaf moet je per element de font size bepalen. 
 
 #### Aanpak
-Analyseer de font waardes uit het design dat je hebt gekregen in Figma, zoals `font-family`, `font-size` en kleuren. Zet de basis font styling op in het `html` of het `body` element. Pas daarna voor de belangrijkste tekst, de belangrijke details en achtergrondinformatie de font styling aan zoals het in het aangeleverde ontwerp staat, zoals de `<h1>`, `<h2>`, `<h3>`,  `<p>`, `<a>` en/of `<button>`. Controleer in de browser met de *inspector* de font styling van alle tekst elementen.
+Analyseer de font waardes uit het design dat je hebt gekregen in Figma, zoals `font-family`, `font-size` en kleuren. Zet de basis font styling op in het `html` element. Pas daarna voor de belangrijkste tekst, de belangrijke details en achtergrondinformatie de font styling aan zoals het in het aangeleverde ontwerp staat, zoals de `<h1>`, `<h2>`, `<h3>`,  `<p>`, `<a>` en/of `<button>`. Controleer in de browser met de *inspector* de font styling van alle tekst elementen.
 
 Als je nog niet bekend bent met (basis) font styling in CSS lees dan het artikel [Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals), bekijk de voorbeelden en probeer het uit in je opdracht.
 
