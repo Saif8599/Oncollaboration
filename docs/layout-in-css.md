@@ -1,4 +1,4 @@
-# The Client- Website
+# The Client - Website
 
 ## Layout in CSS
 
@@ -6,7 +6,7 @@ Normal flow of _Flow Layout_ is de manier waarop _block_- en _inline_-elementen
 op een pagina worden weergegeven voordat er wijzigingen met CSS worden
 aangebracht. 
 
-![Blokc and inline layout in normal flow](flow-layout.png)
+![Block and inline layout in normal flow](flow-layout.png)
 *Dat is wat je ziet als je “kale” HTML in de browser bekijkt*
 
 ### Layout Modes

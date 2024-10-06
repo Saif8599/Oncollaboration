@@ -1,6 +1,7 @@
-# The Client- Website
+# The Client - Website
 
 ## Prototyping
+
 Om een ontwerpprobleem op te lossen kan je verschillende (schets) technieken toepassen om grip krijgen op de opdracht, ideeën te verkennen en te onderzoeken. In de ontwerpfase van het project is het doel om snel een prototype te maken dat je kan testen en uitproberen. Zo zorg je ervoor dat je precies weet wat je moet gaan bouwen.
 
 Een prototype kan van alles zijn, bijvoorbeeld een schets om te bespreken met iemand uit je squad, een paper-prototype om snel te kunnen testen met een gebruiker of een gedetailleerd uitgewerkt design in Figma.
