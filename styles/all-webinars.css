@@ -83,7 +83,9 @@ main {
 }
 
 @media (min-width: 600px) {
+
   /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/
+  
   body {
     padding-top: 60px;
   }
