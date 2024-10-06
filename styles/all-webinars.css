@@ -5,12 +5,16 @@ body {
 nav {
   position: fixed;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   bottom: 0;
   left: 0;
 }
 
 nav a:first-child {
+  display: none;
+}
+
+nav li:nth-child(5) {
   display: none;
 }
 
@@ -27,7 +31,7 @@ nav ul li {
 }
 
 .nav-item svg {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .nav-item a {
@@ -41,4 +45,50 @@ nav ul li {
   font-weight: 700;
 }
 
+@media (min-width: 600px) { /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/
+  body{
+    padding-top: 60px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #6a0025;
+    padding: 10px;
+    position: fixed; 
+    top: 0;
+    height: 40px;
+  }
 
+  nav a:first-child { 
+    display: inline; /*De eerste a element in nav word weergegeven (logo)*/
+  }
+
+  nav li:nth-child(5) {
+    display: inline; /*De 5e a element in nav word weergegeven "Start searching" */
+  }
+
+  nav li:last-child a {
+    display: inline;
+    color: #6a0025; 
+    padding: 9px 32px;
+    background-color: #F0E5E9;
+    border-radius: 10px;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 1em ;
+    margin-right: 20px;
+  }
+
+  .nav-item svg {
+    display: none;
+  }
+}
