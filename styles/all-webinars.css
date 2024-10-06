@@ -1,6 +1,9 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f0e5e9;
 }
+
+/* Navbar */
 
 nav {
   position: fixed;
@@ -45,22 +48,60 @@ nav ul li {
   font-weight: 700;
 }
 
-@media (min-width: 600px) { /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/
-  body{
+/* Search Functon */
+
+main {
+  margin: 0px 17px;
+}
+.search-function h1 {
+  font-size: 2em;
+  color: #1f000b;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 11px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #6a0025;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/
+  body {
     padding-top: 60px;
   }
+
+  /* Navbar */
+
   nav {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     background-color: #6a0025;
     padding: 10px;
-    position: fixed; 
+    position: fixed;
     top: 0;
     height: 40px;
   }
 
-  nav a:first-child { 
+  nav a:first-child {
     display: inline; /*De eerste a element in nav word weergegeven (logo)*/
   }
 
@@ -70,9 +111,9 @@ nav ul li {
 
   nav li:last-child a {
     display: inline;
-    color: #6a0025; 
+    color: #6a0025;
     padding: 9px 32px;
-    background-color: #F0E5E9;
+    background-color: #f0e5e9;
     border-radius: 10px;
   }
 
@@ -84,7 +125,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 1em ;
+    margin: 1em;
     margin-right: 20px;
   }
 
