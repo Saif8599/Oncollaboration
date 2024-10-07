@@ -85,6 +85,8 @@ je dit consequent doorvoert, wordt je latere CSS hier ook beter van.
 
 Zorg dat je CSS bestand de volgorde en structuur van de HTML volgt. Hierdoor
 wordt het makkelijker om je werk terug te vinden, en aanpassingen te maken.
+Maak slim gebruik van _inheritance_ binnen CSS, en zet je code op van generiek
+naar specifieker.
 
 💡 Je kunt in CSS ook selectors _nesten_ om meer overzicht te houden (en minder
 te typen). Laat ook hierbij de structuur van je HTML terugkomen.
@@ -98,19 +100,23 @@ nav {
 }
 
 .intro {
+    font-family: sans-serif;
     text-align: center;
 }
 
 footer {
+    font-family: sans-serif;
     font-size: smaller;
 }
 
 a.button {
+    font-family: sans-serif;
     padding: .5em;
     border: 1px solid;
 }
 
 nav ul {
+    font-family: sans-serif;
     list-style: none;
 }
 
@@ -123,6 +129,7 @@ body {
 
 ```css
 body {
+    font-family: sans-serif;
     line-height: 1.5;
 }
 
@@ -150,7 +157,7 @@ footer {
 ### Nest je media queries
 
 Zorg dat je per onderdeel (_component_) op je pagina afzonderlijk nadenkt over
-hoe deze _responsive_ werkt. Door je _Mobile First_ media queries te _nesten_
+hoe deze _responsive_ werkt. Door je _Mobile First_ media queries te _nesten_,
 is het makkelijker om met verschillende formaten breakpoints te werken, en hou
 je meer overzicht. Ga je een onderdeel veranderen (of verwijderen), dan heb je
 op één plek ook alle code bij elkaar.
@@ -210,7 +217,15 @@ footer {
 
 ### Opdracht met je tafel
 
-...
+Bekijk met je tafel en mentor de HTML van één persoon en bespreek wat er
+verbeterd kan worden qua ademruimte en inspringen, zoals hierboven beschreven.
+
+Bespreek vervolgens samen de CSS van een andere student, en loop hierin de
+volgorde van de selectors door. Wat kan beter? Kunnen er selectoren genest
+worden? Kunnen sommige properties algemener neergezet worden?
+
+Bekijk daarna van een andere student, die al media queries heeft gebruikt, of
+deze handiger genest kunnen worden. Bespreek ook de waardes in de breakpoints.
 
 ### Individuele opdracht
 
