@@ -82,6 +82,50 @@ main {
   cursor: pointer;
 }
 
+/* Webinar Overview*/
+
+.webinar-overview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.webinar-overview-header h2 {
+  font-size: 1em;
+  color: #1f000b;
+  margin-bottom: 15px;
+}
+
+.webinar-overview .sort {
+  background-color: #D2B2BD;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+/* Featured Webinar */
+.featured-webinar {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.featured-webinar img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.featured-webinar #webinar-description {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+.featured-webinar .speaker-name {
+  font-size: 1em;
+  margin-top: -15px;
+  color: #555;
+}
+
 @media (min-width: 600px) {
 
   /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/

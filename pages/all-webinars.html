@@ -103,15 +103,21 @@
         </form>
       </section>
 
-      <!-- Webinar Subjects -->
+      <!-- Webinar Overview -->
       <section class="webinar-overview">
-        <h2>Newest</h2>
-        <label for="sort">Sort by:</label>
-        <select id="sort" tabindex="0">
-          <option value="newest" tabindex="0">Newest</option>
-          <option value="popular" tabindex="0">Most Popular</option>
-          <option value="oldest" tabindex="0">Oldest</option>
-        </select>
+        <div class="webinar-overview-header">
+          <h2>Newest</h2>
+
+          <!-- Sort Options -->
+          <div class="sort">
+            <label for="sort">Sort by:</label>
+            <select id="sort" tabindex="0">
+              <option value="newest" tabindex="0">Newest</option>
+              <option value="popular" tabindex="0">Most Popular</option>
+              <option value="oldest" tabindex="0">Oldest</option>
+            </select>
+          </div>
+        </div>
 
         <!-- Featured Webinar -->
         <article class="featured-webinar" tabindex="0">
