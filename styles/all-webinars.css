@@ -96,12 +96,13 @@ main {
 }
 
 .webinar-overview .sort {
-  background-color: #D2B2BD;
+  background-color: #d2b2bd;
   border-radius: 5px;
   padding: 7px 10px;
 }
 
 /* Featured Webinar */
+
 .featured-webinar {
   display: flex;
   flex-direction: column;
@@ -126,10 +127,32 @@ main {
   color: #555;
 }
 
-@media (min-width: 600px) {
+/* Webinar Subject */
 
+.subject-boxes {
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  margin-top: 15px;
+  overflow-x: auto; /* Dit zorgt ervoor dat je kan scrollen als het overflowt*/
+}
+
+.subject-boxes a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #d2b2bd;
+  text-decoration: none;
+}
+
+.subject-boxes a:first-child {
+  background-color: #6a0025;
+  color: #d2b2bd;
+}
+
+@media (min-width: 600px) {
   /*Vanaf minimaal 600px word dit code uitgevoerd (tablet/desktop versie)*/
-  
+
   body {
     padding-top: 60px;
   }
