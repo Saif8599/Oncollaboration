@@ -111,8 +111,6 @@ main {
 
 .featured-webinar img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
   border-radius: 5px;
 }
 
@@ -148,6 +146,32 @@ main {
 .subject-boxes a:first-child {
   background-color: #6a0025;
   color: #d2b2bd;
+}
+
+/* All Webinars */
+
+.webinar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Hierbij word er 2 kolommen gemaakt van 2 1fr's */
+  gap: 15px;
+  margin-bottom: 80px;
+}
+
+.webinar-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.webinar-item h3 {
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.webinar-item p {
+  font-size: 1em;
+  margin-top: -15px;
+  color: #555;
 }
 
 @media (min-width: 600px) {
