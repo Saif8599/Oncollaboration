@@ -11,7 +11,7 @@ Het briefingproces bestaat uit twee delen: een briefing van de opdrachtgever en 
 
 Voordat je naar de briefing van de opdrachtgever gaat bereid je je voor op het gesprek zodat je weet welke vragen je moet stellen. Na de briefing stuur je de opdrachtgever een debriefing waarin je in eigen woorden opschrijft wat jij denkt dat de opdracht inhoudt. 
 
-![image](https://github.com/user-attachments/assets/ef0b78d3-4936-4cd0-9c9c-feccc43c8e1c)
+![Proces van briefing en debriefing](briefing-debriefing.png)
 _Het proces van briefing / debriefing, stel je vragen tijdens de briefing met de opdrachtgever, schrijf een debriefing en werk iteratief aan de website, laat bij de sprint review zien wat je hebt gemaakt en check of het voldoet aan de wensen van de opdrachtgever_
 
 Het briefingproces bestaat uit twee delen:

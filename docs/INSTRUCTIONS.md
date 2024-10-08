@@ -20,6 +20,7 @@ Deze leertaak wordt behandeld in sprint 2. Er worden verschillende workshops aan
 - [Typografie en leesbaarheid](typografie-en-leesbaarheid.md) 
 - [Code/Design review layout in CSS](code-design-review-layout-in-css.md)
 - [Code conventies](code-conventies.md) 
+- [Wrap-up](wrap-up.md) 
 - [Sprint review](sprint-review.md) 
 
 
