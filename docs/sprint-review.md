@@ -39,12 +39,12 @@ Schrijf het op en begin jouw demonstratie donderdag met het uitleggen van jouw d
 
 ### Demonstratie van het werk
 Tijdens de Sprint Review geef je een demonstratie van de website. 
-Leg de functionaliteiten en kenmerken duidelijk uit en laat het zien. 
+Leg de functionaliteiten en kenmerken duidelijk uit en laat het zien. Gebruik als beginpunt van je demonstratie je readme.  
 Wil je laten zien dat het responsive werkt? Laat je website dan op verschillende apparaten zien.
 Met de demonstratie test je of het werk voldoet aan de vraag van de opdrachtgever.
 
 ##### Voorbereiding
-Schrijf een plan van aanpak voor jouw demonstratie, wat laat je eerst zien en wat heb je daarvoor nodig?
+Schrijf een plan van aanpak voor jouw demonstratie, wat wil je laten zien, in welke volgorde en wat heb je daarvoor nodig?
 Geef de demonstratie aan je medestudenten en een mentor en geef elkaar tips en tops voor donderdag.
 
 
