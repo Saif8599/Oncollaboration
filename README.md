@@ -24,7 +24,7 @@ De website bestaat uit een homepagina, webinarspagina, contouringspagina, en pro
 - **Contouringspagina:** Gebruikers kunnen hier CT-scans uploaden en samenwerken om bestralingsgebieden te bepalen.
 - **Profielpagina:** Gebruikers kunnen hun persoonlijke informatie beheren en hun professionele achtergrond bijwerken.
 
-![image](https://github.com/user-attachments/assets/b5281fe5-2271-43ec-9f49-2a21767fafa4)
+![image](https://github.com/user-attachments/assets/59faec6d-f144-40f3-b4da-5641791ca3b0)
 
 ![image](https://github.com/user-attachments/assets/997c14ef-7c9c-4efd-a1f9-8efcb2db2dbc)
 
