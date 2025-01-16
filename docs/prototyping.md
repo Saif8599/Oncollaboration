@@ -119,6 +119,10 @@ Je gaat een breakdown schets maken van het ontwerp dat je hebt gemaakt (of gekre
 
 ## En wat nu, voor komende vrijdag?
 
+Nu kun je aan de slag met HTML.
+
+### Prototype in HTML
+
 1. Maak een nieuw issue aan op je project, en noem deze “Prototype naar HTML”.
 2. Voeg je schetsen en eventuele opmerkingen toe aan je issue; hiermee heb je het probleem geanalyseerd en al deels ontworpen.
 3. Begin aan de hand van je schetsen met het schrijven van de HTML in je editor. Zorg voor een goed fundament, waarop je volgende week CSS kunt toepassen. Probeer dus nog _geen CSS_ te schrijven, maar te beginnen met de content en de structuur, waarmee je een werkend prototype bouwt. [Valideer je HTML](https://validator.w3.org/) regelmatig om fouten te voorkomen.

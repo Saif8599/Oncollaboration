@@ -171,8 +171,8 @@ ook eens hoe je _Container Queries_ in kunt zetten op deze manier.
 body {
     line-height: 1.5;
 }
-nav {
-    display: flex;
+.navigation {
+    font-weight: bold;
 }
 footer {
     text-align: right;
@@ -182,7 +182,8 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    nav {
+    .navigation {
+        display: flex;
         justify-content: space-between;
     }
     footer {
@@ -201,9 +202,12 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
-nav {
-    display: flex;
+.navigation {
+    font-weight: bold;
+
+    /* De navigatie mag al eerder naast elkaar */
     @media (min-width: 26em) {
+        display: flex;
         justify-content: space-between;
     }
 }
