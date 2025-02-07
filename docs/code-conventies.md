@@ -85,7 +85,7 @@ je dit consequent doorvoert, wordt je latere CSS hier ook beter van.
 
 Zorg dat je CSS bestand de volgorde en structuur van de HTML volgt. Hierdoor
 wordt het makkelijker om je werk terug te vinden, en aanpassingen te maken.
-Maak slim gebruik van _inheritance_ binnen CSS, en zet je code op van generiek
+Maak slim gebruik van _inheritance_ en de _cascade_ binnen CSS, en zet je code op van generiek
 naar specifieker.
 
 💡 Je kunt in CSS ook selectors _nesten_ om meer overzicht te houden (en minder
